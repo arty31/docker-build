@@ -1,0 +1,3 @@
+ base:
+    build: .
+    dockerfile:  Dockerfile_deb_python

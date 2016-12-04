@@ -1,0 +1,11 @@
+# deb.phython
+#
+# VERSION               0.0.1
+
+FROM      debian:latest
+MAINTAINER Art Vendelaine
+
+LABEL Description="This image is used to start a debian containe with python"
+RUN apt-get update && apt-get install -y python 
+ENTRYPOINT ["sleep","3600"]
+
